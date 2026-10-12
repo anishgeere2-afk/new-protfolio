@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Giri - Computer Engineering Student Portfolio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for modern icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-emerald-500 selection:text-white">
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center text-slate-950 font-bold text-lg shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition-transform">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <span class="font-bold text-lg tracking-tight bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">Anish Giri</span>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-emerald-400 transition-colors">About</a>
+                <a href="#skills" class="hover:text-emerald-400 transition-colors">Technology</a>
+                <a href="#hobbies" class="hover:text-emerald-400 transition-colors">Hobbies</a>
+                <a href="#contact" class="hover:text-emerald-400 transition-colors">Contact</a>
+            </nav>
+            <a href="#contact" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold text-sm transition-all shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40">
+                <i class="fa-solid fa-paper-plane text-xs"></i> Let's Connect
+            </a>
+        </div>
+    </header>
+
+    <section class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(16,185,129,0.15),rgba(255,255,255,0))]"></div>
+        <div class="max-w-6xl mx-auto px-6 relative z-10">
+            <div class="grid md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-7 space-y-6 text-center md:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Available for Opportunities
+                    </div>
+                    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight">
+                        Hi, I'm <span class="bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">Anish Giri</span>
+                    </h1>
+                    <p class="text-lg sm:text-xl text-slate-400 font-normal leading-relaxed max-w-xl mx-auto md:mx-0">
+                        A passionate Computer Engineering student building digital experiences, exploring modern web technologies, and solving complex problems with code.
+                    </p>
+                    <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2">
+                        <a href="#contact" class="px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm transition-all shadow-lg shadow-emerald-500/20">
+                            Get in Touch
+                        </a>
+                        <a href="#skills" class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 font-semibold text-sm transition-all">
+                            View Tech Stack
+                        </a>
+                    </div>
+                </div>
+                <div class="md:col-span-5 flex justify-center">
+                    <div class="relative group">
+                        <div class="absolute -inset-1.5 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-3xl blur-xl opacity-30 group-hover:opacity-50 transition duration-1000"></div>
+                        <div class="relative w-64 h-64 sm:w-80 sm:h-80 rounded-3xl bg-slate-900 border border-slate-800 p-3 flex flex-col items-center justify-center text-center shadow-2xl">
+                            <!-- Avatar Icon -->
+                            <div class="w-28 h-28 sm:w-36 sm:h-36 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-5xl sm:text-6xl mb-4 shadow-inner">
+                                <i class="fa-solid fa-user-graduate"></i>
+                            </div>
+                            <h3 class="font-bold text-lg text-white">Anish Giri</h3>
+                            <p class="text-xs sm:text-sm text-emerald-400 font-medium mt-1">Computer Engineering Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-slate-900/50 border-y border-slate-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-emerald-400 font-bold">About Me</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold tracking-tight">Dedicated to Continuous Learning & Innovation</h3>
+                <p class="text-slate-400 text-base">
+                    As a computer engineering student, I combine theoretical foundations with hands-on software development to create robust applications and elegant user interfaces.
+                </p>
+            </div>
+            <div class="grid sm:grid-cols-3 gap-6">
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-white mb-2">Education</h4>
+                    <p class="text-sm text-slate-400">Pursuing Bachelor's degree in Computer Engineering with strong core fundamentals in algorithms and design.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-white mb-2">Web Development</h4>
+                    <p class="text-sm text-slate-400">Building responsive, accessible, and high-performance websites using modern tools and frameworks.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-white mb-2">Problem Solving</h4>
+                    <p class="text-sm text-slate-400">Enthusiastic about tackling algorithmic challenges and learning new paradigms in computer science.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-emerald-400 font-bold">Tech Stack</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold tracking-tight">Technology & Tools I Work With</h3>
+                <p class="text-slate-400 text-base">Here are the core technologies, languages, and tools I use to bring ideas to life.</p>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+                <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 flex flex-col items-center text-center group transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-orange-500/10 text-orange-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <h4 class="font-semibold text-white mb-1">HTML5</h4>
+                    <p class="text-xs text-slate-400">Semantic Layouts</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 flex flex-col items-center text-center group transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-500/10 text-blue-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <h4 class="font-semibold text-white mb-1">CSS3</h4>
+                    <p class="text-xs text-slate-400">Styling & Tailwind</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 flex flex-col items-center text-center group transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-yellow-500/10 text-yellow-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <h4 class="font-semibold text-white mb-1">JavaScript</h4>
+                    <p class="text-xs text-slate-400">Dynamic UI & Logic</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 flex flex-col items-center text-center group transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h4 class="font-semibold text-white mb-1">VS Code</h4>
+                    <p class="text-xs text-slate-400">Primary IDE</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 flex flex-col items-center text-center group transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h4 class="font-semibold text-white mb-1">Web Dev</h4>
+                    <p class="text-xs text-slate-400">Full stack basics</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 flex flex-col items-center text-center group transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-red-500/10 text-red-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <h4 class="font-semibold text-white mb-1">Git / GitHub</h4>
+                    <p class="text-xs text-slate-400">Version Control</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 flex flex-col items-center text-center group transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+                    <h4 class="font-semibold text-white mb-1">C / C++</h4>
+                    <p class="text-xs text-slate-400">Core Programming</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 flex flex-col items-center text-center group transition-all">
+                    <div class="w-14 h-14 rounded-2xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h4 class="font-semibold text-white mb-1">Databases</h4>
+                    <p class="text-xs text-slate-400">SQL Basics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="py-20 bg-slate-900/50 border-y border-slate-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-emerald-400 font-bold">Interests</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold tracking-tight">Hobbies & Passions Beyond Code</h3>
+                <p class="text-slate-400 text-base">A glimpse into what inspires me, keeps me grounded, and fuels my creativity.</p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Hobby 1 -->
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-person-hiking"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-white mb-2">Nature & Trekking</h4>
+                    <p class="text-sm text-slate-400">Walking and exploring nature trails, going on treks, and appreciating the great outdoors.</p>
+                </div>
+                <!-- Hobby 2 -->
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-white mb-2">Historical Biographies</h4>
+                    <p class="text-sm text-slate-400">Reading deep accounts of historical figures, leaders, and thinkers to gain life perspectives.</p>
+                </div>
+                <!-- Hobby 3 -->
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-teal-500/10 text-teal-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-music"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-white mb-2">Traditional Music</h4>
+                    <p class="text-sm text-slate-400">Playing and enjoying traditional classical instruments like the bansuri and harmonium.</p>
+                </div>
+                <!-- Hobby 4 -->
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-white mb-2">Wildlife & Nature</h4>
+                    <p class="text-sm text-slate-400">Fascinated by wildlife preservation, ecology, and majestic animals like lions.</p>
+                </div>
+                <!-- Hobby 5 -->
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all group sm:col-span-2 lg:col-span-2">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-compass"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-white mb-2">Travel & Exploration</h4>
+                    <p class="text-sm text-slate-400">Discovering new cultures, scenic landscapes, and historical landmarks across different regions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_120%,rgba(16,185,129,0.1),rgba(255,255,255,0))]"></div>
+        <div class="max-w-4xl mx-auto px-6 relative z-10 text-center space-y-8">
+            <div class="space-y-4">
+                <h2 class="text-xs uppercase tracking-widest text-emerald-400 font-bold">Get In Touch</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold tracking-tight">Let's Connect & Collaborate</h3>
+                <p class="text-slate-400 text-base max-w-xl mx-auto">
+                    Whether you have a question, a project collaboration idea, or just want to connect, feel free to drop me an email!
+                </p>
+            </div>
+            
+            <div class="inline-flex flex-col sm:flex-row items-center gap-4 p-6 rounded-2xl bg-slate-900 border border-slate-800 shadow-2xl">
+                <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="text-center sm:text-left">
+                    <p class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Email Address</p>
+                    <a href="mailto:anishgeere2@gmail.com" class="text-lg sm:text-xl font-bold text-white hover:text-emerald-400 transition-colors">
+                        anishgeere2@gmail.com
+                    </a>
+                </div>
+                <a href="mailto:anishgeere2@gmail.com" class="sm:ml-6 px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm transition-all shadow-lg shadow-emerald-500/20">
+                    Send Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 bg-slate-900 border-t border-slate-800 text-center text-sm text-slate-500">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>&copy; 2026 Anish Giri. All rights reserved.</p>
+            <div class="flex items-center gap-4">
+                <a href="mailto:anishgeere2@gmail.com" class="hover:text-emerald-400 transition-colors"><i class="fa-solid fa-envelope text-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
